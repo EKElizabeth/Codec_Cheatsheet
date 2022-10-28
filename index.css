@@ -1,0 +1,144 @@
+/*Table Font*/
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-style: italic;
+  }
+
+/* Table, Row and column styles*/
+  table, th, td { 
+    table-layout: fixed;
+    width:100%;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px;
+  }
+
+/*Row and column styles*/
+  th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    margin: 15px;
+  }
+
+/*caption*/
+  caption {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    font-style: normal;
+    color: darkblue;
+   }
+
+ /*Style Second Heading*/    
+  .rowstyle {height:100px;
+    font-size: 30px;
+    font-style: normal;
+    color: darkblue;
+    background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  }
+  
+/*Change font for Row Headings and add background color*/
+  .rowheading {
+    font-size: 20px;
+    font-style: normal;
+    color: darkblue;
+    background-color: rgba(153, 153, 255, 0.3);
+  }
+
+/*style first column, second row headings and add background color*/
+  th[scope="col"] {
+    background-color: rgba(204, 204, 255, 0.3);
+    font-style: normal;
+    color: darkblue;
+  }
+
+/*Illustrate the color by using name value*/
+  #NAME {
+    color:blue;
+    font-size: 1em;
+  }
+
+/*Illustrate the color by using hex value*/
+  #HEX {
+    color: #3366ff;
+    font-family: 'Passion One', cursive;
+    font-size: 2em;
+    text-shadow: 3px 3px #9999ff;
+    border: 3px solid #3366ff;
+  }
+
+/*Illustrate the color by using rgb value*/
+  #RGB {
+    background-color: rgb(50, 100, 200);
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+ /*Illustrate the color by using rgba value*/
+  #RGBA {
+    background-color:rgba(50,100,200,0.2);
+    font-size: 20px
+  }
+
+/*Illustrate the color by using the hsl value*/
+  #HSL {
+    font-size: 3em;
+    color: hsl(240 100% 20%);
+    font-family: Castellar;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(LONDON.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+  }
+
+/*Illustrate the color by using hsla value*/
+#HSLA {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: hsla(240, 100%, 50% ,0.3);
+    background-color: hsla(240, 100%, 20%, 0.2);
+    background-image: url(STUNNING.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+ /*Resources to create box with color*/
+.Resources {
+    font-size: 10px;
+    position: relative;
+    box-sizing: border-box;
+    width: 20%;
+    border: 3px dotted darkslateblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin:10px;
+    color: darkblue;
+  }
+
+/*href to remove underline and change font-size*/
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blueviolet;
+  }
+
+/*hover to change color*/
+a:hover {
+    color: red;
+  }
+
+/*footer style*/
+footer {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    color: darkblue;
+  }
+
+/*highlight/bold certain elements*/
+span {
+  font-weight: bold;
+}
